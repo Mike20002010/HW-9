@@ -1,0 +1,32 @@
+span {
+    text-decoration: line-through;
+}
+
+.text {
+   text-indent: 100px;
+   line-height: 1.7;
+}
+
+.link {
+text-shadow: red 1px 1px 2px;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-text:nth-of-type(1) {
+   text-align: right;
+   white-space: pre;
+
+}
+
+.post-text:nth-of-type(2) {
+   text-align: justify;
+    white-space: nowrap;
+}
+
+.post-text {
+    font-family: 'Merriweather', serif;
+    color: darkblue;
+}
